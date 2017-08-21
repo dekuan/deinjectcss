@@ -1,0 +1,37 @@
+{
+	"name"		: "deinjectcss",
+	"homepage"	: "http://www.dekuan.org/",
+	"authors"	:
+	[
+		"liuqixing <liuqixing@dekuan.org>"
+	],
+	"description"	: "A jQuery plugin, allows for injection of CSS defined as javascript JSS objects.",
+	"main"		:
+	[
+		"jquery.injectCSS.js"
+	],
+	"keywords"	:
+	[
+		"jquery",
+		"injectCSS"
+	],
+	"license": "MIT",
+	"ignore":
+	[
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests",
+		"src",
+		"tools",
+		"composer.json",
+		"karma.conf.js",
+		"mocha.opts",
+		"package.json"
+	],
+	"dependencies":
+	{
+		"jquery": ">=1.11"
+	}
+}
